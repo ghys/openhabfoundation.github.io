@@ -1,15 +1,23 @@
 <template>
   <div class="jumbotron">
+<<<<<<< HEAD
     <div style="min-height: 320px">
       <div class="jumbotron-filter">
         <div class="jumbotron-pattern"></div>
       </div>
+=======
+    <div>
+>>>>>>> Upgrade VuePress, improve jumbotron
       <h1 class="welcome jumbotron-title">
         <span>Welcome to the<img src="/logo-white.png" alt="openHAB" class="openhab-logo" />Foundation!</span>
       </h1>
       <ClientOnly>
         <Parallax>
+<<<<<<< HEAD
           <img src="/images/home/library.jpg" />
+=======
+          <img src="/images/home/jumbotron.jpg" />
+>>>>>>> Upgrade VuePress, improve jumbotron
         </Parallax>
       </ClientOnly>
     </div>
@@ -38,6 +46,7 @@
     opacity 1
 
 .jumbotron
+<<<<<<< HEAD
   min-height 320px
   .jumbotron-filter
     position absolute
@@ -47,6 +56,9 @@
     height 320px
     background linear-gradient(#ff6600ff, #ff660000)
 
+=======
+  min-height 480px
+>>>>>>> Upgrade VuePress, improve jumbotron
   .jumbotron-pattern
     position absolute
     left 0
@@ -68,14 +80,22 @@
     font-family 'Open Sans', sans-serif
     font-size 31pt
     line-height 2
+<<<<<<< HEAD
     text-shadow 0 0 15px #333
+=======
+    text-shadow 0 0 10px #333
+>>>>>>> Upgrade VuePress, improve jumbotron
     user-select none
     animation 1.5s ease-out 0s 1 slideIn2
     .openhab-logo
       padding-left 10px
       padding-right 10px
       margin-bottom -15px
+<<<<<<< HEAD
       filter drop-shadow(0 0 10px #333)
+=======
+      filter drop-shadow(0 0 10px #000)
+>>>>>>> Upgrade VuePress, improve jumbotron
   .jumbotron-center
     text-align center
   .jumbotron-illustration
@@ -86,10 +106,15 @@
     font-weight 300
     border 0
   .Masthead
+<<<<<<< HEAD
       height 320px !important
       min-height 320px !important
       // img
       //   filter grayscale()
+=======
+      height 480px !important
+      min-height 480px !important
+>>>>>>> Upgrade VuePress, improve jumbotron
 </style>
 
 <script>
